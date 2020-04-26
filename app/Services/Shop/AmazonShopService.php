@@ -18,7 +18,7 @@ class AmazonShopService implements IShopService
 
     public function setConfig($config)
     {
-        dump("Amazon config was set in constructor...");
+        dump("Amazon config was set in a method...");
         $this->config = $config;
         dump($this->config);
     }
